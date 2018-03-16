@@ -5,8 +5,8 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion "25.0.3"
+    compileSdkVersion 27
+    buildToolsVersion "27.0.3"
     defaultConfig {
         applicationId "com.shazam.androidredux"
         minSdkVersion 19
@@ -29,7 +29,7 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
-    implementation 'com.android.support:appcompat-v7:25.4.0'
+    implementation 'com.android.support:appcompat-v7:27.1.0'
     testImplementation 'junit:junit:4.12'
     testImplementation 'org.jmock:jmock:2.8.3'
     testCompile "org.jmock:jmock-junit4:2.8.3"
@@ -37,7 +37,7 @@ dependencies {
     implementation 'io.reactivex:rxandroid:1.2.1'
     implementation 'com.jakewharton.rxbinding:rxbinding-kotlin:1.0.1'
     implementation 'com.jakewharton.rxbinding:rxbinding:1.0.1'
-    implementation 'com.android.support:recyclerview-v7:25.4.0'
+    implementation 'com.android.support:recyclerview-v7:27.1.0'
     implementation 'com.squareup.retrofit2:retrofit:2.3.0'
 
     implementation 'com.squareup.retrofit2:adapter-rxjava:2.3.0'
